@@ -1,0 +1,2 @@
+org.openqa.selenium.UnhandledAlertException
+ org.openqa.selenium.JavascriptException: javascript error: argument is not defined
