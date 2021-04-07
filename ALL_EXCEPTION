@@ -1,2 +1,7 @@
-org.openqa.selenium.UnhandledAlertException
- org.openqa.selenium.JavascriptException: javascript error: argument is not defined
+1. org.openqa.selenium.UnhandledAlertException
+ 
+ 2. org.openqa.selenium.JavascriptException: javascript error: argument is not defined
+ 
+ 3. java.lang.ClassNotFoundException: Error: Could not find or load main class com.qa.seleniumUtility.ScrollWebPage
+ 
+ 4. org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element:
