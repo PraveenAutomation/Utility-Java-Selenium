@@ -1,0 +1,10 @@
+Q1: What happen if thread-count="2" in testng is less than the no. of methods i.e 3 present in class?
+Ans: In this case two methods will run on same Thread-ID. 
+
+Q2: How to configure to run single method on multiple thread-count?
+Ans: By Using these three attribute:
+			threadPoolSize = 3,
+			invocationCount = 3, 
+			timeOut = 1000
+			
+Q3: 

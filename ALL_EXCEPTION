@@ -5,3 +5,10 @@
  3. java.lang.ClassNotFoundException: Error: Could not find or load main class com.qa.seleniumUtility.ScrollWebPage
  
  4. org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element:
+ 
+ 5. org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. 
+ 		                                    OS appears to be: WIN10
+ 
+ 6.  org.testng.TestNGException: 
+Parameter &apos;MyName&apos; is required by @Test on method TestParameter but has not been marked @Optional or defined
+ 
