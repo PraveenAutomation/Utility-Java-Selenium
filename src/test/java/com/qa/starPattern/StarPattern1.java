@@ -4,10 +4,11 @@ public class StarPattern1 {
 
 	public static void main(String[] args) {
 		
+		System.out.println("======== STAR TRIANGLE ===========");
 		starTriange();
-		System.out.println("=========================");
+		System.out.println("===========REVERSE STAR TRIANGLE ==============");
 		starReverseTriange();
-		System.out.println("=========================");
+		System.out.println("============ COMPLETE STAR TRIANGLE =============");
 		starTriange();
 		starReverseTriange();
 		System.out.println("------------------------------");
