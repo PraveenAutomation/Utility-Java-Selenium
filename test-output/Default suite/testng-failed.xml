@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testNgScenario.TestNgParallelExecution">
+      <class name="com.qa.testNgScenario.DataProviderTest">
         <methods>
-          <include name="Test2"/>
+          <include name="dataTestFromAnotherClass"/>
         </methods>
-      </class> <!-- com.qa.testNgScenario.TestNgParallelExecution -->
+      </class> <!-- com.qa.testNgScenario.DataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

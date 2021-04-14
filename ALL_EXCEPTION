@@ -9,6 +9,9 @@
  5. org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. 
  		                                    OS appears to be: WIN10
  
- 6.  org.testng.TestNGException: 
-Parameter &apos;MyName&apos; is required by @Test on method TestParameter but has not been marked @Optional or defined
+ 6.  org.testng.TestNGException: Parameter &apos;MyName&apos; is required by @Test on method TestParameter 
+                                 but has not been marked @Optional or defined
+
+7. Data Provider public java.lang.Object[][] com.qa.testNgScenario.CustomDataProvider.getDataFromAnotherCalss() 
+   returned a null value
  
