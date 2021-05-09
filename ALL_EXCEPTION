@@ -14,4 +14,6 @@
 
 7. Data Provider public java.lang.Object[][] com.qa.testNgScenario.CustomDataProvider.getDataFromAnotherCalss() 
    returned a null value
+   
+   MalformedURLException --> When malformed url is there.
  
