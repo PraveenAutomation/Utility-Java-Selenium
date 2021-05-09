@@ -19,14 +19,15 @@ public class FindBrokenLinks {
 	
 	public static WebDriver driver;
 
-	public static void main(String[] args) throws IOException, InterruptedException {
+	public static void main(String[] args) throws MalformedURLException,IOException, InterruptedException {
 		WebDriverManager.chromiumdriver().setup();
 		driver = new ChromeDriver();
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("http://demo.guru99.com/test/newtours/");
+		//driver.get("http://demo.guru99.com/test/newtours/");
+		driver.get("http://www.zlti.com");
 		
 		List<WebElement> link=driver.findElements(By.tagName("a"));
 		
@@ -42,7 +43,7 @@ public class FindBrokenLinks {
 			
 			// Create a connection using url objects: links
 			HttpsURLConnection httpconn=(HttpsURLConnection)links.openConnection();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			//Establish Connection:
 			httpconn.connect();
 			//To get the responseCode
