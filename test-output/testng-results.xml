@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-11T21:32:27 IST" name="Default suite" finished-at="2021-05-11T21:32:37 IST" duration-ms="9739">
+  <suite name="Default suite" duration-ms="1389" started-at="2021-05-20T20:24:23 IST" finished-at="2021-05-20T20:24:25 IST">
     <groups>
     </groups>
-    <test started-at="2021-05-11T21:32:27 IST" name="Default test" finished-at="2021-05-11T21:32:37 IST" duration-ms="9739">
-      <class name="com.qa.seleniumUtility.ScrollHorizontally">
-        <test-method signature="scrollHorizontally()[pri:0, instance:com.qa.seleniumUtility.ScrollHorizontally@247d8ae]" started-at="2021-05-11T21:32:27 IST" name="scrollHorizontally" finished-at="2021-05-11T21:32:37 IST" duration-ms="9674" status="PASS">
+    <test name="Default test" duration-ms="1389" started-at="2021-05-20T20:24:23 IST" finished-at="2021-05-20T20:24:25 IST">
+      <class name="com.qa.seleniumUtility.DataBaseConnection_MySql">
+        <test-method status="PASS" signature="testDB()[pri:0, instance:com.qa.seleniumUtility.DataBaseConnection_MySql@26a7b76d]" name="testDB" duration-ms="1299" started-at="2021-05-20T20:24:23 IST" finished-at="2021-05-20T20:24:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollHorizontally -->
-      </class> <!-- com.qa.seleniumUtility.ScrollHorizontally -->
+        </test-method> <!-- testDB -->
+      </class> <!-- com.qa.seleniumUtility.DataBaseConnection_MySql -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
