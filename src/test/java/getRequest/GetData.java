@@ -19,9 +19,9 @@ public class GetData {
 		
 		int code=resp.getStatusCode();
 		
-		System.out.println("Status code is"+code);
+		System.out.println("Status code is "+code);
 		
-		Assert.assertEquals(code,200);
+		Assert.assertEquals(code, 200);
 	}
 
 }
