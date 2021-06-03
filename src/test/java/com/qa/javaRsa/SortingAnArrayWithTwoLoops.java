@@ -2,7 +2,7 @@ package com.qa.javaRsa;
 
 import java.util.Arrays;
 
-public class SortingAnArray {
+public class SortingAnArrayWithTwoLoops {
 
 	public static void main(String[] args) {
 		
