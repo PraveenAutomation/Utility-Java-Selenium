@@ -10,8 +10,8 @@ public class PalindromeNumber {
 		
 		while(num!=0)
 		{
-			//rem=temp%10;
-			rev=rev*10+num%10;
+			rem=temp%10;
+			rev=rev*10+rem;
 			num=num/10;
 		}
 		if(rev==num)
