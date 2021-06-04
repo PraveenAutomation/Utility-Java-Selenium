@@ -1,6 +1,6 @@
 package com.qa.javaRsa;
 
-public class Factorial {
+public class FactorialByRecurssion {
 
 	public static void main(String[] args) {
 		
