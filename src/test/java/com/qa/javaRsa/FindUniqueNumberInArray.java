@@ -24,8 +24,8 @@ public class FindUniqueNumberInArray {
 						k++;
 					}
 				}
-				System.out.println(a[i]);
-				System.out.println(k);
+				System.out.print(a[i]+" : "+k);
+				//System.out.println(k);
 				if(k==1)
 					System.out.println("Unique Number is: "+a[i]);
 			}
