@@ -26,6 +26,7 @@ public class VerifyLinks {
 		List<WebElement> links=driver.findElements(By.tagName("a"));
 		
 		System.out.println("Total links are "+links.size());
+		System.out.println("Page Tite is "+driver.getTitle());
 		
 		for(int i=0;i<links.size();i++)
 		{

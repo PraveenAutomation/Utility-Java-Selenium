@@ -5,7 +5,7 @@ public class FibonaciSeriesLogic {
 	public static void main(String[] args) {
 		fiboSeries();
 		int count =10;
-		fiboUsingRecurrsion(count-2);
+		//fiboUsingRecurrsion(count-2);
 		
 	}
 	
