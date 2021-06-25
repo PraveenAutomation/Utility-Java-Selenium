@@ -1,4 +1,4 @@
-package com.qa.javaBlog;
+package com.qa.javaString;
 
 public class ReverseStringByForLoop {
 

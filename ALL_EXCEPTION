@@ -18,3 +18,11 @@
   8. MalformedURLException --> When malformed url is there.
  
  9. org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element
+ 
+----------------------------
+ API TESTING EXCEPTION:
+ ---------------------------
+ java.lang.IllegalArgumentException: Don't know how to encode {"name":"morpheus","job":"leader"} as a byte stream.
+ java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
+ java.net.ConnectException: Connection refused: connect
+ java.net.UnknownHostException: No such host is known (restapi.demoqa.com)

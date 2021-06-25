@@ -3,10 +3,10 @@ package getRequest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
 
-public class GetData {
+public class GetData2 {
 	
 	/*
 	 * @BeforeTest public void setUp() throws Exception { RestAssured.port = port; }
@@ -15,10 +15,8 @@ public class GetData {
 	@Test
 	public void testResponse()
 	{
-		Response resp=RestAssured.get("https://reqres.in/api/users?page=2");
-		
-		int code=resp.getStatusCode();
-		
+		int code=get("https://reqres.in/api/users?page=2").getStatusCode();
+				
 		System.out.println("Status code is "+code);
 		
 		Assert.assertEquals(code, 200);
@@ -27,9 +25,7 @@ public class GetData {
 	@Test
 	public void getBody()
 	{
-		Response resp=RestAssured.get("https://reqres.in/api/users?page=2");
-		
-		String data=resp.asString();
+		String data=get("https://reqres.in/api/users?page=2").asString();
 		
 		System.out.println("Body is "+data);
 		
