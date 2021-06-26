@@ -6,8 +6,6 @@ public class ReverseStringByForLoop {
 		
 		String s="VDS TECH LABS";
 		revString(s);
-		
-
 	}
 
 	private static void revString(String s) {

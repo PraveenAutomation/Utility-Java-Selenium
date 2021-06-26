@@ -8,9 +8,6 @@ public class StringReverse_ByRecursive {
 		String s="My name is VDS Tech";
 		String rev=sr.revByRecursive(s);
 		System.out.println("Reverse of String is : "+rev);
-		
-		
-
 	}
 	
 	public String revByRecursive(String s)
