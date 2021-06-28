@@ -42,7 +42,7 @@ public class JqueryTooltip {
         if(actualTooltip.equals(expectedTooltip)) {							
             System.out.println("Test Case Passed");					
         }		
-        driver.close();		
+       driver.close();		
 
 	}
 

@@ -18,7 +18,7 @@
   8. MalformedURLException --> When malformed url is there.
  
  9. org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element
- 
+ Exception in thread "main" org.openqa.selenium.InvalidArgumentException: invalid argument
 ----------------------------
  API TESTING EXCEPTION:
  ---------------------------
