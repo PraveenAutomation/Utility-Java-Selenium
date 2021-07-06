@@ -18,8 +18,8 @@ public class ReverseString_Word_ByForloop {
 		
 	}
 
-	private static String reverseTheSentence(String is) {
-		String a[]=is.split("\\s");
+	private static String reverseTheSentence(String s) {
+		String a[]=s.split("\\s");
 		String rev="";
 		
 		for(int i=a.length-1;i>=0;i--)
