@@ -21,6 +21,7 @@
 10. Exception in thread "main" org.openqa.selenium.InvalidArgumentException: invalid argument
 11. Exception in thread "main" org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
 12. Exception in thread "main" org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Hello World!!}
+13. Exception in thread "main" org.openqa.selenium.JavascriptException: javascript error: document.getElementByName is not a function
 ----------------------------
  API TESTING EXCEPTION:
  ---------------------------
