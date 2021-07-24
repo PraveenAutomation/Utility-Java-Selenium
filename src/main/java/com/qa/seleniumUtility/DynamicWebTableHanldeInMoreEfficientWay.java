@@ -34,7 +34,7 @@ public class DynamicWebTableHanldeInMoreEfficientWay {
 		System.out.println("Total no of cols : "+colNum.size());
 		
 		System.out.println("Data are below: ");
-		for(int i=1;i<=(rowNum.size()-1850);i++)
+		for(int i=1;i<=(rowNum.size()-1050);i++)
 		{
 			for(int j=1;j<=colNum.size();j++)
 			{
