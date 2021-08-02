@@ -14,7 +14,6 @@ public class SwapVariableWithoutThirdVariable {
 		b=a-b;
 		a=a-b;
 		System.out.println("Value After swap of a= "+a+ " and of b= "+b);
-		
 	}
 
 }

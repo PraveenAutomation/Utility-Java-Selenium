@@ -5,6 +5,7 @@ public class SwapStringWithout_3rd_Variable {
 	public static void main(String[] args) {
 		String a="Hello";
 		String b="World";
+		System.out.println(a+b);
 		swapString(a,b);
 
 	}
