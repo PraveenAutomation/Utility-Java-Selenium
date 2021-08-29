@@ -6,7 +6,7 @@ public class StringAnagram_Validation {
 
 	public static void main(String[] args) {
 		String s1="listen";
-		String s2="silent";
+		String s2="silent ";
 		validateAnagram(s1,s2);
 
 	}
@@ -36,11 +36,7 @@ public class StringAnagram_Validation {
 				System.out.println("Strings are not anagram");
 			}
 			
-			
 		}
 		
 	}
-
-
-
 }
