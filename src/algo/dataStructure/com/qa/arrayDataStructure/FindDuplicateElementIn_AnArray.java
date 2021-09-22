@@ -15,7 +15,7 @@ public class FindDuplicateElementIn_AnArray {
 	public static List<Integer> findDuplicates(int[] nums) {
 	        
 	        //Declared list of integers for output
-	        List<Integer> result = new ArrayList<>();
+	        List<Integer> result = new ArrayList<Integer>();
 	        
 	        //Traverse an array
 	        for (int val : nums) {
