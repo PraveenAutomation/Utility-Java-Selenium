@@ -6,6 +6,7 @@ import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -58,6 +59,7 @@ public class WindowHandle_1 {
 	}
 	
 	
+	@AfterTest
 	public void tearDown()
 	{
 		if(driver!=null)
