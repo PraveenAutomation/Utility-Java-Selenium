@@ -1,4 +1,4 @@
-package com.qa.reverseWordString;
+package com.qa.reverseString;
 
 import java.util.Scanner;
 
