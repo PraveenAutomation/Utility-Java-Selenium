@@ -11,7 +11,6 @@ class Y3 extends X3
 	{
 		Y3()
 		{
-			
 			super();
 			System.out.println("Child class method of name show");
 			
@@ -21,10 +20,7 @@ class Y3 extends X3
 public class SuperClassConstructor_3 {
 
 	public static void main(String[] args) {
-		Y3 y3=new Y3();
-		
-				
-
+		Y3 y=new Y3();
 	}
 
 }
