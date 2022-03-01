@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testNgScenario.DataProviderTest">
+      <class name="getRequest.RestAuthenticationDemo">
         <methods>
-          <include name="dataTestFromAnotherClass"/>
+          <include name="authDemo"/>
         </methods>
-      </class> <!-- com.qa.testNgScenario.DataProviderTest -->
+      </class> <!-- getRequest.RestAuthenticationDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

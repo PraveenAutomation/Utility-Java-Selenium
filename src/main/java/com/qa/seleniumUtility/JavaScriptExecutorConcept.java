@@ -29,6 +29,7 @@ public class JavaScriptExecutorConcept {
 		
 		// Draw border on Element by JS:
 		drawBorderOnelement(driver, ele);
+		getEntirePageInnerText();
 
 	}
 	
@@ -42,6 +43,13 @@ public class JavaScriptExecutorConcept {
 	{
 		JavascriptExecutor js=((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].style.border='3px solid red'", element);
+	}
+	
+	public static void getEntirePageInnerText()
+	{
+		JavascriptExecutor js=((JavascriptExecutor)driver);
+		String sText =  js.executeScript("return document.documentElement.innerText;").toString();
+		System.out.println(sText);
 	}
 
 }

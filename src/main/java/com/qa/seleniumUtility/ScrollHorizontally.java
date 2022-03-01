@@ -28,5 +28,7 @@ public class ScrollHorizontally {
         //This will scroll the page Horizontally till the element is found		
         js.executeScript("arguments[0].scrollIntoView();", Element);
     }
+	
+	
 
 }

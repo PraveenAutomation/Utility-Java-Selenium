@@ -11,7 +11,7 @@ public class StarPattern1 {
 		System.out.println("============ COMPLETE STAR TRIANGLE =============");
 		starTriange();
 		starReverseTriange();
-		System.out.println("------------------------------");
+		System.out.println("-------------BACKWARD-----------------");
 		backwardStarTriangle();
 		System.out.println("-----------Pyramid-------------------");
 		pryamidfStarTriangle();

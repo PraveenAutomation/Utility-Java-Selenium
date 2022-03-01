@@ -6,7 +6,6 @@ public class AdjacentArray {
 		int a[]= {5,10,6,9,10};
 		int result= adjArrayDiff(a);
 		System.out.println(result);
-
 	}
 
 	private static int adjArrayDiff(int[] a) {
