@@ -41,7 +41,7 @@ public class Elements {
 		//Relative Locators:
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
 		WebElement loginBtn=driver.findElement(By.cssSelector("#btnLogin"));
-		WebElement userName=driver.findElement(RelativeLocator.withTagName("input").above(loginBtn));
+		WebElement userName=driver.findElement(RelativeLocator.with(By.tagName("input")).above(loginBtn));
 		userName.sendKeys("testing");
 		
 		//driver.close();
