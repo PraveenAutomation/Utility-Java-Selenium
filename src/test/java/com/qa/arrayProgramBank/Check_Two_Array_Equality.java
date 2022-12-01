@@ -4,7 +4,7 @@ public class Check_Two_Array_Equality {
 
 	public static void main(String[] args) {
 		int[] arr1= {10,20,30,40};
-		int[] arr2= {10,20,30};
+		int[] arr2= {10,20,30,4};
 		
 		boolean isEqual=true;
 		
