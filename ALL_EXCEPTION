@@ -29,3 +29,6 @@
  java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
  java.net.ConnectException: Connection refused: connect
  java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
+ 
+ ---------------------------------
+ java.lang.UnsupportedOperationException: You may only deselect options of a multi-select

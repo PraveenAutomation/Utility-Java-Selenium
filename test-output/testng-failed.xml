@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="getRequest.RestAuthenticationDemo">
+      <class name="com.qa.rsaSection7.StaticDropDown">
         <methods>
-          <include name="authDemo"/>
+          <include name="setUp"/>
+          <include name="staticDropdown_1"/>
         </methods>
-      </class> <!-- getRequest.RestAuthenticationDemo -->
+      </class> <!-- com.qa.rsaSection7.StaticDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

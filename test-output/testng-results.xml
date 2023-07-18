@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-21T10:14:32 IST" name="Default suite" finished-at="2021-06-21T10:14:35 IST" duration-ms="2154">
+  <suite started-at="2023-07-18T12:20:50 IST" name="Default suite" finished-at="2023-07-18T12:20:54 IST" duration-ms="4505">
     <groups>
     </groups>
-    <test started-at="2021-06-21T10:14:32 IST" name="Default test" finished-at="2021-06-21T10:14:35 IST" duration-ms="2154">
-      <class name="getRequest.GetData">
-        <test-method signature="getBody()[pri:0, instance:getRequest.GetData@7133da86]" started-at="2021-06-21T10:14:32 IST" name="getBody" finished-at="2021-06-21T10:14:34 IST" duration-ms="1928" status="PASS">
+    <test started-at="2023-07-18T12:20:50 IST" name="Default test" finished-at="2023-07-18T12:20:54 IST" duration-ms="4505">
+      <class name="com.qa.rsaSection7.StaticDropDown">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rsaSection7.StaticDropDown@141e879d]" started-at="2023-07-18T12:20:50 IST" name="setUp" finished-at="2023-07-18T12:20:53 IST" duration-ms="2852" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBody -->
-        <test-method signature="testResponse()[pri:0, instance:getRequest.GetData@7133da86]" started-at="2021-06-21T10:14:34 IST" name="testResponse" finished-at="2021-06-21T10:14:35 IST" duration-ms="178" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="staticDropdown_1()[pri:0, instance:com.qa.rsaSection7.StaticDropDown@141e879d]" started-at="2023-07-18T12:20:53 IST" name="staticDropdown_1" finished-at="2023-07-18T12:20:53 IST" duration-ms="699" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testResponse -->
-      </class> <!-- getRequest.GetData -->
+        </test-method> <!-- staticDropdown_1 -->
+        <test-method signature="updatedDropdown()[pri:0, instance:com.qa.rsaSection7.StaticDropDown@141e879d]" started-at="2023-07-18T12:20:53 IST" name="updatedDropdown" finished-at="2023-07-18T12:20:54 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatedDropdown -->
+      </class> <!-- com.qa.rsaSection7.StaticDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
