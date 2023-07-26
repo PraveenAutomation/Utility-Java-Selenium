@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.rsaSection7.StaticDropDown">
+      <class name="com.qa.streamRsaSection14.StremDemo">
         <methods>
-          <include name="setUp"/>
-          <include name="staticDropdown_1"/>
+          <include name="streamCollect"/>
         </methods>
-      </class> <!-- com.qa.rsaSection7.StaticDropDown -->
+      </class> <!-- com.qa.streamRsaSection14.StremDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

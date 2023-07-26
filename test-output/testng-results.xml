@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-18T12:20:50 IST" name="Default suite" finished-at="2023-07-18T12:20:54 IST" duration-ms="4505">
+  <suite started-at="2023-07-25T12:04:05 IST" name="Default suite" finished-at="2023-07-25T12:04:06 IST" duration-ms="996">
     <groups>
     </groups>
-    <test started-at="2023-07-18T12:20:50 IST" name="Default test" finished-at="2023-07-18T12:20:54 IST" duration-ms="4505">
-      <class name="com.qa.rsaSection7.StaticDropDown">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.rsaSection7.StaticDropDown@141e879d]" started-at="2023-07-18T12:20:50 IST" name="setUp" finished-at="2023-07-18T12:20:53 IST" duration-ms="2852" status="PASS">
+    <test started-at="2023-07-25T12:04:05 IST" name="Default test" finished-at="2023-07-25T12:04:06 IST" duration-ms="996">
+      <class name="com.qa.streamRsaSection14.WebTableSorting">
+        <test-method signature="sortWebTable()[pri:0, instance:com.qa.streamRsaSection14.WebTableSorting@17814b1c]" started-at="2023-07-25T12:04:05 IST" name="sortWebTable" finished-at="2023-07-25T12:04:06 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="staticDropdown_1()[pri:0, instance:com.qa.rsaSection7.StaticDropDown@141e879d]" started-at="2023-07-18T12:20:53 IST" name="staticDropdown_1" finished-at="2023-07-18T12:20:53 IST" duration-ms="699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- staticDropdown_1 -->
-        <test-method signature="updatedDropdown()[pri:0, instance:com.qa.rsaSection7.StaticDropDown@141e879d]" started-at="2023-07-18T12:20:53 IST" name="updatedDropdown" finished-at="2023-07-18T12:20:54 IST" duration-ms="883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatedDropdown -->
-      </class> <!-- com.qa.rsaSection7.StaticDropDown -->
+        </test-method> <!-- sortWebTable -->
+      </class> <!-- com.qa.streamRsaSection14.WebTableSorting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
