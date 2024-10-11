@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.streamRsaSection14.StremDemo">
+      <class name="com.qa.seleniumUtility.DataBaseConnection_MySql">
         <methods>
-          <include name="streamCollect"/>
+          <include name="testDB"/>
         </methods>
-      </class> <!-- com.qa.streamRsaSection14.StremDemo -->
+      </class> <!-- com.qa.seleniumUtility.DataBaseConnection_MySql -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

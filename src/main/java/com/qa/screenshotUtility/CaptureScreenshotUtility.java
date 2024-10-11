@@ -31,13 +31,13 @@ public class CaptureScreenshotUtility {
 		driver.get("https://www.w3schools.com/");
 		
 		System.out.println(driver.getTitle());
-		getPageScreeshot();
+		getFullPageScreeshot();
 		WebElement ele= driver.findElement(By.linkText("LOG IN"));
 		getPageElementScreeshot(ele);
 
 	}
 	
-	public static void getPageScreeshot()
+	public static void getFullPageScreeshot()
 	{
 		Date d=new Date();
 		String FileName=d.toString().replaceAll(" ", "_").replaceAll(":", "_")+".jpg";
